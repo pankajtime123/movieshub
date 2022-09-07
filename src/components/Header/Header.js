@@ -6,6 +6,7 @@ const Header = () => {
 
     <div className="main-h">
         <img src={movie} />
+    
     <span onClick={() => window.scroll(0, 0)} className="header">
     
      Movie Details 
