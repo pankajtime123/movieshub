@@ -1,22 +1,36 @@
-.header {
+
+
+.main-h{
   width: 100%;
   cursor: pointer;
   position: fixed;
   display: flex;
+  align-items: center;
   justify-content: center;
   text-transform: uppercase;
   background-color: #39445a;
   font-family: "Montserrat", sans-serif;
-  font-size: 5vw;
-  padding-bottom: 15px;
+  font-size: 3vw;
+  padding: 15px 0;
   box-shadow: 0px 1px 5px black;
   color: white;
   z-index: 100;
+  gap: 1rem;
+}
+
+.main-h img{
+  width: 3rem;
+  height: 3rem;
 }
 
 @media (max-width: 1000px) {
-  .header {
+  .main-h {
     padding-top: 15px;
     font-size: 6.4vw;
   }
+  .main-h img{
+    width: 2rem;
+    height: 2rem;
+  }
+ 
 }
