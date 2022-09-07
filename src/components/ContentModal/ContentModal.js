@@ -6,7 +6,7 @@ import Fade from "@material-ui/core/Fade";
 import axios from "axios";
 import {
   img_500,
-  unavailable,
+  unavailable,  
   unavailableLandscape,
 } from "../../config/config";
 import "./ContentModal.css";
@@ -150,7 +150,11 @@ export default function TransitionsModal({ children, media_type, id }) {
             </div>
           )}
         </Fade>
+         
+        
+
       </Modal>
+     
     </>
   );
 }
